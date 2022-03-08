@@ -74,14 +74,12 @@ void cheapest_route(int c, int n_p) {
 }
 
 int main() {
-    int i, c, n_c, n_p = 0;
-    scanf("%d", &n_c);
+    int n_c, n_p = 0;
 
-    for(i = 0; i < n_c; i++) {
-        scanf("%d", &c);
+    while(scanf("%d", &n_c) && !feof(stdin)) {
         scanf("%d", &n_p);
 
-        cheapest_route(c, n_p);
+        cheapest_route(n_c, n_p);
     }
     return 0;
 }
