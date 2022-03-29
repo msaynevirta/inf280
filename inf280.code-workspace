@@ -1,8 +1,12 @@
 {
 	"folders": [
 		{
-			"name": "06 - Sunny mountains",
-			"path": "week_6/sunny_mountains"
+			"name": "06 - Mountains",
+			"path": "week_6/mountains"
+		},
+		{
+			"name": "06 - Crane",
+			"path": "week_6/crane"
 		}
 	]
 }
