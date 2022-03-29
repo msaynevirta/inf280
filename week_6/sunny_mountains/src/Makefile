@@ -1,5 +1,5 @@
 SRC_FILES=main.c
-CFLAGS += -std=c99 -g -Wall -Wextra -Wno-missing-field-initializers
+CFLAGS += -ansi -g -Wall -Wextra -Wno-missing-field-initializers
 
 all: main
 
